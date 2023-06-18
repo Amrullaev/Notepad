@@ -5,8 +5,8 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="back">#F3EFEE</color>
-    <color name="back_btn">#FF9700</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#17212B</color>
+    <color name="back">#0E1621</color>
+    <color name="back_btn">#1552AF</color>
 </resources>
