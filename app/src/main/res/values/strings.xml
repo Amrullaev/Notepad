@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bizning_telegramdagi_faoliyatimiz">Bizning ijtimoiy tarmoqlardagi faoliyatimiz</string>
+    <string name="telegram_kanal">Telegram kanal</string>
+    <string name="telegram_guruh">Telegram guruh</string>
+    <string name="Telegram_bot">Telegram bot</string>
+    <string name="boshqa_dasturlar">Boshqa dasturlar</string>
+    <string name="muallif">Muallif</string>
+</resources>
