@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.notepad.databinding.FragmentFirstBinding
+import com.example.notepad.ui.SettingsFragment
 
 class FirstFragment : Fragment(), HelperNotepad {
     private lateinit var _binding: FragmentFirstBinding
@@ -46,8 +47,8 @@ class FirstFragment : Fragment(), HelperNotepad {
         }
         mBinding.cv1.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction()
-                .replace(R.id.main_container, InfoFragment(), InfoFragment::javaClass.name)
-                .addToBackStack(InfoFragment::javaClass.name).commit()
+                .replace(R.id.main_container, SettingsFragment(), SettingsFragment::javaClass.name)
+                .addToBackStack(SettingsFragment::javaClass.name).commit()
         }
 
         viewModel =

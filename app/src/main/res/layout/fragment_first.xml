@@ -33,7 +33,7 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:scaleType="centerCrop"
-            android:src="@drawable/contact" />
+            android:src="@drawable/ic_baseline_settings_24" />
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
